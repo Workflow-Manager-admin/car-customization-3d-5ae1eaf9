@@ -1,0 +1,52 @@
+.color-selector {
+  padding: 16px 12px;
+  background: #fff;
+  border-radius: 16px;
+  margin: 16px 4px;
+  box-shadow: 0 0.5px 7px 0 rgba(31, 34, 45, 0.07);
+  min-width: 120px;
+}
+
+.color-selector h3 {
+  margin: 0 0 10px 0;
+  font-size: 1.08em;
+  letter-spacing: 0.02em;
+  color: #1e88e5;
+  font-weight: 700;
+}
+
+.color-selector ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.color-choice {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 0;
+}
+
+.color-choice input[type=radio] {
+  display: none;
+}
+
+.color-swatch {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  margin-right: 12px;
+  border: 2.5px solid #1e88e5;
+  box-shadow: 0 0.5px 3px rgba(30, 136, 229, 0.05);
+  transition: border 0.2s;
+}
+
+.color-choice input[type=radio]:checked + .color-swatch {
+  border: 3.5px solid #ff4081;
+}
+
+.color-label {
+  font-size: 1em;
+  color: #444;
+}

@@ -1,0 +1,44 @@
+.accessory-selector {
+  padding: 16px 14px;
+  background: #fff;
+  border-radius: 16px;
+  margin: 16px 8px;
+  box-shadow: 0 0.5px 7px 0 rgba(31, 34, 45, 0.07);
+  min-width: 140px;
+}
+
+.accessory-selector h3 {
+  margin: 0 0 12px 0;
+  font-size: 1.08em;
+  letter-spacing: 0.02em;
+  color: #1e88e5;
+  font-weight: 700;
+}
+
+.accessory-selector ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.accessory-choice {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding: 8px 0;
+  gap: 8px;
+}
+
+.accessory-choice input[type=checkbox] {
+  margin-right: 8px;
+}
+
+.accessory-icon {
+  font-size: 1.25em;
+  margin-right: 5px;
+}
+
+.accessory-label {
+  font-size: 1em;
+  color: #444;
+}
