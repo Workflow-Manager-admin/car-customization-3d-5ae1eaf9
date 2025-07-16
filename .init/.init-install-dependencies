@@ -1,0 +1,4 @@
+{
+    "command": "npm install",
+    "working_directory": "/home/kavia/workspace/code-generation/car-customization-3d-5ae1eaf9/car_configurator_frontend"
+}
